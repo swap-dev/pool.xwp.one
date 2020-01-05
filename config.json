@@ -23,8 +23,8 @@
         "walletBase58AddressPrefix": 10343,
         "walletBase58IntAddressPrefix": 13671,
         "walletBase58SubAddressPrefix": 11368,
-        "notifyPort": 14652,
-        "blockRefreshInterval": 2000,
+        "notifyPort": 14651,
+        "blockRefreshInterval": 200,
         "minerTimeout": 900,
         "ports": [
             {
@@ -101,7 +101,7 @@
         "enabled": true,
         "interval": 20,
         "depth": 60,
-        "poolFee": 1,
+        "poolFee": 0,
         "devDonation": 0,
         "coreDevDonation": 0,
         "extraFeaturesDevDonation":0
