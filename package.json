@@ -1,0 +1,23 @@
+{
+    "name": "cryptonote-swap-pool",
+    "version": "0.0.1",
+    "license": "GPL-2.0",
+    "authors": "sebseb7",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/swap-dev/cryptonote-swap-pool.git"
+    },
+    "dependencies": {
+        "bignum": "*",
+        "async": "1.5.2",
+        "redis": "*",
+        "cli-color": "*",
+        "dateformat": "*",
+        "base58-native": "*",
+        "cryptoforknote-util": "https://github.com/swap-dev/node-cryptoforknote-util.git",
+        "cuckaroo29s-hashing": "https://github.com/swap-dev/node-cuckaroo29s-hashing.git"
+    },
+    "engines": {
+        "node": ">=8.0.0"
+    }
+}
